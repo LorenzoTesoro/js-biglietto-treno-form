@@ -1,6 +1,75 @@
+/* #region common rules */
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
+body{
+    background-color: lightblue;
+}
+
+h1, h2{
+    text-align: center;
+    color:white;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+h3{
+    text-align: left;
+}
+/* #endregion common rules */
+
+/* #region main */
+section.ticket_price .row:first-of-type{
+    background-color: white;
+    width:60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
+}
+section.ticket_price input{
+    margin-top:0.5rem;
+}
+section.ticket_price .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.ticket_price .row:last-of-type{
+    background-color: white;
+    width:60%;
+    margin:0 auto;
+    display: flex;
+    padding-bottom:2rem;
+    justify-content: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.btn{
+    padding: 0.50rem 0.75rem;
+    border-radius:0.75rem;
+    color:red;
+}
+
+label{
+    color: red;
+}
+/* /.ticket_price */
+
+section.ticket .row{
+    background-color: white;
+    width:60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    border-radius:1rem;
+}

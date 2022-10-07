@@ -10,20 +10,44 @@
 </head>
 <body>
 
-    <div class="container_km">
-        <label>Enter km:</label>
-        <input type="number" min="1" id="km">
+<main>   
+   <section class="ticket_price">
+        <h1>Calcola il prezzo del tuo biglietto</h1>
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <label for="">Enter your Name: </label>
+                    <input type="text">
+                </div>
+                <div class="content">
+                    <label>Enter km:</label>
+                    <input type="number" min="1" id="km">
+                </div>
+                <div class="content">
+                    <label>Enter your age:</label>
+                    <input type="number" min="1" id="age">
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn">Genera</button>
+            </div>     
+        </div>
+   </section>
+   <!-- /. ticket_price -->
+
+   <section class="ticket">
+    <h2>Il tuo Biglietto</h2>
+    <div class="container">
+        <div class="row">
+            <h3>Totale: </h3>
+            <span id="costo_biglietto">
+            </span>
+        </div>
     </div>
-    
-    <div class="container_age">
-        <label>Enter your age:</label>
-        <input type="number" min="1" id="age">
-    </div>
-
-    <button>Click me</button>
-
-
-
+   </section>
+   <!-- /.ticket -->
+</main>
+   
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
